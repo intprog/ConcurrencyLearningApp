@@ -8,7 +8,7 @@ class DataProcessor
 {
 public:
     DataProcessor(std::promise<std::string> processorPromise);
-
+    void process(std::string);
 private:
     std::promise<std::string> _processorPromise;
 };

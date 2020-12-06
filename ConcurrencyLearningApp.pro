@@ -19,12 +19,14 @@ SOURCES += \
     commandline.cpp \
     dataprocessor.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    sender.cpp
 
 HEADERS += \
     commandline.h \
     dataprocessor.h \
-    mainwindow.h
+    mainwindow.h \
+    sender.h
 
 FORMS += \
     mainwindow.ui
