@@ -17,11 +17,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     commandline.cpp \
+    dataprocessor.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     commandline.h \
+    dataprocessor.h \
     mainwindow.h
 
 FORMS += \
